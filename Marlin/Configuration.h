@@ -36,7 +36,7 @@
 // 0 ... no heated bed
 // 1 ... aluminium heated bed with "BuildTak-like" sticker
 // 2 ... ultrabase heated bed
-#define ANYCUBIC_KOSSEL_ENABLE_BED 2
+#define ANYCUBIC_KOSSEL_ENABLE_BED 1
 
 /**
  * Configuration.h
@@ -89,7 +89,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "@brandstaetter, @grbd" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "@MadMan, @grbd" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -703,7 +703,7 @@
     // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
     #define DELTA_PRINTABLE_RADIUS 120.0  // (mm)
     // Center-to-center distance of the holes in the diagonal push rods.
-    #define DELTA_DIAGONAL_ROD 267        // (mm)
+    #define DELTA_DIAGONAL_ROD 255        // (mm)
       // Horizontal offset from middle of printer to smooth rod center.
     #define DELTA_SMOOTH_ROD_OFFSET 186   // (mm)
     // Horizontal offset of the universal joints on the end effector.
